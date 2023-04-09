@@ -22,7 +22,8 @@ const camera = new THREE.PerspectiveCamera(
 	const geometry = new THREE.BoxGeometry(2, 2, 2);
 
 	// Create material with color
-	const material = new THREE.MeshBasicMaterial({ color: red });
+	const material = new THREE.MeshBasicMaterial({ color: #FF0000
+ });
 
 	// Add texture - 
 	// const texture = new THREE.TextureLoader().load('textures/crate.gif');
